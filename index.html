@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DHARMA: The Epic Saga</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="game-container"></div>
+
+  <!-- Phaser 3 via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.70.0/phaser.min.js"></script>
+
+  <!-- Scenes (load order matters) -->
+  <script src="scenes/BootScene.js"></script>
+  <script src="scenes/IntroScene.js"></script>
+  <script src="scenes/MainMenuScene.js"></script>
+  <script src="scenes/Chapter1Scene.js"></script>
+  <script src="scenes/Chapter2Scene.js"></script>
+  <script src="scenes/Chapter3Scene.js"></script>
+
+  <!-- Game bootstrap -->
+  <script src="game.js"></script>
+</body>
+</html>
